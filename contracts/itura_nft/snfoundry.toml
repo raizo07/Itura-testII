@@ -1,0 +1,16 @@
+[sncast.default]
+account = "user"
+accounts-file = "~/.starknet_accounts/starknet_open_zeppelin_accounts.json"
+keystore = "~/.starknet_keystore/"
+rpc_url = "https://starknet-sepolia.g.alchemy.com/starknet/version/rpc/v0_8/"
+block_explorer_url = "https://sepolia.voyager.online"
+
+[snforge]
+exit_first = true
+fork = [
+    {
+        name = "SEPOLIA",
+        url = "https://starknet-sepolia.g.alchemy.com/starknet/version/rpc/v0_8/",
+        block_id.tag = "latest"
+    }
+]

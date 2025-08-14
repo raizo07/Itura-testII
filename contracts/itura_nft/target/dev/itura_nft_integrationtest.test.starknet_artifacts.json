@@ -1,0 +1,1 @@
+{"version":1,"contracts":[{"id":"6t5d87g0araji","package_name":"itura_nft","contract_name":"IturaNFT","module_path":"itura_nft::IturaNFT","artifacts":{"sierra":"itura_nft_integrationtest_IturaNFT.test.contract_class.json","casm":null}}]}
